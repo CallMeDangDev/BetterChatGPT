@@ -1,28 +1,28 @@
 {
-  "configuration": "Configuration",
-  "model": "Model",
+  "configuration": "Cấu hình",
+  "model": "Mô hình",
   "token": {
-    "label": "Max Token",
-    "description": "The maximum number of tokens to generate in the chat completion. The total length of input tokens and generated tokens is limited by the model's context length."
+  "label": "Số từ tối đa",
+  "description": "Số lượng tối đa các token được tạo ra trong quá trình hoàn thiện cuộc trò chuyện. Tổng độ dài của các token đầu vào và token được tạo ra được giới hạn bởi độ dài ngữ cảnh của mô hình."
   },
-  "default": "Default",
+  "default": "Mặc định",
   "temperature": {
-    "label": "Temperature",
-    "description": "What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. We generally recommend altering this or top p but not both. (Default: 1)"
+  "label": "Nhiệt độ",
+  "description": "Nhiệt độ mẫu lấy mẫu dùng, giữa 0 và 2. Giá trị cao hơn như 0,8 sẽ làm cho đầu ra ngẫu nhiên hơn, trong khi giá trị thấp hơn như 0,2 sẽ làm cho nó tập trung và xác định hơn. Chúng tôi nói chung khuyến nghị chỉ điều chỉnh một trong hai tham số này, nhiệt độ hoặc top-p. (Mặc định: 1)"
   },
   "presencePenalty": {
-    "label": "Presence Penalty",
-    "description": "Number between -2.0 and 2.0. Positive values penalise new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics. (Default: 0)"
+  "label": "Phạt sự hiện diện",
+  "description": "Số từ giữa -2,0 và 2,0. Giá trị dương phạt các token mới dựa trên sự xuất hiện của chúng trong văn bản cho đến nay, tăng khả năng của mô hình nói về các chủ đề mới. (Mặc định: 0)"
   },
   "topP": {
-    "label": "Top-p",
-    "description": "Number between 0 and 1. An alternative to sampling with temperature, called nucleus sampling, where the model considers the results of the tokens with top p probability mass. So 0.1 means only the tokens comprising the top 10% probability mass are considered. We generally recommend altering this or temperature but not both. (Default: 1)"
+  "label": "Top-p",
+  "description": "Số giữa 0 và 1. Một phương pháp lấy mẫu thay thế cho việc lấy mẫu với nhiệt độ, được gọi là lấy mẫu hạt nhân, trong đó mô hình xem xét kết quả của các token có khối lượng xác suất top p. Vì vậy, 0,1 có nghĩa là chỉ các token bao gồm 10% khối lượng xác suất cao nhất được xem xét. Chúng tôi nói chung khuyến nghị chỉ điều chỉnh một trong hai tham số này, top-p hoặc nhiệt độ. (Mặc định: 1)"
   },
   "frequencyPenalty": {
-    "label": "Frequency Penalty",
-    "description": "Number between -2.0 and 2.0. Positive values penalise new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim. (Default: 0)"
-  },
-  "defaultChatConfig": "Default Chat Config",
-  "defaultSystemMessage": "Default System Message",
-  "resetToDefault": "Reset To Default"
+    "label": "Mức phạt tần suất",
+    "description": "Số trong khoảng từ -2.0 đến 2.0. Giá trị dương sẽ phạt các từ mới dựa trên tần suất xuất hiện của chúng trong văn bản cho đến nay, làm giảm khả năng của mô hình lặp lại cùng một câu trả lời. (Mặc định: 0)"
+    },
+    "defaultChatConfig": "Cấu hình trò chuyện mặc định",
+    "defaultSystemMessage": "Thông báo hệ thống mặc định",
+    "resetToDefault": "Khôi phục cấu hình mặc định"
 }

@@ -6,7 +6,7 @@
   "warn": "Ngoài ra, nếu bạn cung cấp một điểm cuối API tùy chỉnh cung cấp truy cập miễn phí vào OpenAI API, bạn có thể sử dụng ChatGPT mà không cần cung cấp khóa API chỉ bằng cách để trống trường khóa API. Tuy nhiên, rất quan trọng để cẩn trọng khi sử dụng các điểm cuối API của bên thứ ba, vì các điểm cuối không đáng tin cậy có thể lưu thông tin cá nhân của bạn trong các cuộc trò chuyện. Luôn luôn xác minh tính đáng tin cậy của một điểm cuối API trước khi sử dụng để bảo vệ sự riêng tư và an ninh của bạn."
   },
   "apiKey": {
-  "howTo": "(Nếu bạn không biết đây là gì hãy bỏ qua và xác nhận)\nNhận khóa API cá nhân của bạn <0>tại đây</0>.",
+  "howTo": "Nhận khóa API cá nhân của bạn <0>tại đây</0>.",
   "inputLabel": "Khóa API"
   },
   "customEndpoint": "Sử dụng điểm cuối API tùy chỉnh",

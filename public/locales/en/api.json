@@ -1,15 +1,22 @@
 {
-  "securityMessage": "We prioritise the security of your API key and handle it with utmost care. Your key is exclusively stored on your browser and never shared with any third-party entity. It is solely used for the intended purpose of accessing the OpenAI API and not for any other unauthorised use.",
+  "securityMessage": "Chúng tôi ưu tiên đảm bảo an ninh cho khóa API của bạn và xử lý nó một cách cẩn thận nhất. Khóa của bạn được lưu trữ độc quyền trên trình duyệt của bạn và không bao giờ được chia sẻ với bất kỳ bên thứ ba nào khác. Nó chỉ được sử dụng cho mục đích truy cập vào API của OpenAI và không được sử dụng cho bất kỳ mục đích trái phép nào khác.",
   "apiEndpoint": {
-    "inputLabel": "API Endpoint",
-    "description": "When you choose an unofficial API endpoint, it functions as a proxy. A proxy works by acting as an intermediary between your device and the destination server, in this case, the OpenAI API. By doing so, it enables you to access the OpenAI API in regions where it might otherwise be restricted.",
-    "warn": "Additionally, if you provide a custom API endpoint that grants free access to the OpenAI API, you can use ChatGPT without the need to supply an API key by simply leaving the API key field blank. However, it's crucial to be cautious when using third-party API endpoints, as untrustworthy ones may log your personal information in the conversations. Always verify the reliability of an API endpoint before using it to protect your privacy and security."
+  "inputLabel": "API Endpoint",
+  "description": "Khi bạn chọn một điểm cuối API không chính thức, nó hoạt động như một proxy. Một proxy hoạt động bằng cách đóng vai trò là trung gian giữa thiết bị của bạn và máy chủ đích, trong trường hợp này là OpenAI API. Bằng cách này, nó cho phép bạn truy cập vào OpenAI API ở các khu vực khác nơi nó có thể bị hạn chế.",
+  "warn": "Ngoài ra, nếu bạn cung cấp một điểm cuối API tùy chỉnh cung cấp truy cập miễn phí vào OpenAI API, bạn có thể sử dụng ChatGPT mà không cần cung cấp khóa API chỉ bằng cách để trống trường khóa API. Tuy nhiên, rất quan trọng để cẩn trọng khi sử dụng các điểm cuối API của bên thứ ba, vì các điểm cuối không đáng tin cậy có thể lưu thông tin cá nhân của bạn trong các cuộc trò chuyện. Luôn luôn xác minh tính đáng tin cậy của một điểm cuối API trước khi sử dụng để bảo vệ sự riêng tư và an ninh của bạn."
   },
   "apiKey": {
-    "howTo": "Get your personal API key <0>here</0>.",
-    "inputLabel": "API Key"
+  "howTo": "Nhận khóa API cá nhân của bạn <0>tại đây</0>.",
+  "inputLabel": "Khóa API"
   },
-  "customEndpoint": "Use custom API endpoint",
-  "advancedConfig": "View advanced API configuration <0>here</0>",
-  "noApiKeyWarning": "No API key supplied! Please check your API settings."
-}
+  "customEndpoint": "Sử dụng điểm cuối API tùy chỉnh",
+  "advancedConfig": "Xem cấu hình API nâng cao <0>tại đây</0>",
+  "noApiKeyWarning": "Không cung cấp khóa API! Vui lòng kiểm tra cài đặt API của bạn."
+  }
+  
+  
+  
+  
+  
+  
+  
