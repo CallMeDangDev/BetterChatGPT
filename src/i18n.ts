@@ -13,7 +13,7 @@ i18n
       loadPath: 'locales/{{lng}}/{{ns}}.json',
     },
     fallbackLng: {
-      default: ['en'],
+      default: ['vi'],
     },
     ns: ['main', 'api', 'about', 'model'],
     defaultNS: 'main',
