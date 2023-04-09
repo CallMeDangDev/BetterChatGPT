@@ -20,13 +20,9 @@ const ApiPopup = () => {
   const [error, setError] = useState<string>('');
 
   const handleConfirm = () => {
-    if (_apiKey.length === 0) {
-      setError(t('noApiKeyWarning', { ns: 'api' }) as string);
-    } else {
-      setError('');
-      setApiKey(_apiKey);
-      setIsModalOpen(false);
-    }
+    setError('');
+    setApiKey(_apiKey);
+    setIsModalOpen(false);
   };
 
   useEffect(() => {
