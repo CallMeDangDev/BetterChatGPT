@@ -31,7 +31,7 @@ const ApiPopup = () => {
 
   return isModalOpen ? (
     <PopupModal
-      title='Setup your API key'
+      title='Thiết lập khóa API của bạn.'
       handleConfirm={handleConfirm}
       setIsModalOpen={setIsModalOpen}
       cancelButton={false}

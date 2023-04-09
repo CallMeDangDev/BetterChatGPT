@@ -1,0 +1,22 @@
+{
+  "securityMessage": "Chúng tôi ưu tiên đảm bảo an ninh cho khóa API của bạn và xử lý nó một cách cẩn thận nhất. Khóa của bạn được lưu trữ độc quyền trên trình duyệt của bạn và không bao giờ được chia sẻ với bất kỳ bên thứ ba nào khác. Nó chỉ được sử dụng cho mục đích truy cập vào API của OpenAI và không được sử dụng cho bất kỳ mục đích trái phép nào khác.",
+  "apiEndpoint": {
+  "inputLabel": "API Endpoint",
+  "description": "Khi bạn chọn một điểm cuối API không chính thức, nó hoạt động như một proxy. Một proxy hoạt động bằng cách đóng vai trò là trung gian giữa thiết bị của bạn và máy chủ đích, trong trường hợp này là OpenAI API. Bằng cách này, nó cho phép bạn truy cập vào OpenAI API ở các khu vực khác nơi nó có thể bị hạn chế.",
+  "warn": "Ngoài ra, nếu bạn cung cấp một điểm cuối API tùy chỉnh cung cấp truy cập miễn phí vào OpenAI API, bạn có thể sử dụng ChatGPT mà không cần cung cấp khóa API chỉ bằng cách để trống trường khóa API. Tuy nhiên, rất quan trọng để cẩn trọng khi sử dụng các điểm cuối API của bên thứ ba, vì các điểm cuối không đáng tin cậy có thể lưu thông tin cá nhân của bạn trong các cuộc trò chuyện. Luôn luôn xác minh tính đáng tin cậy của một điểm cuối API trước khi sử dụng để bảo vệ sự riêng tư và an ninh của bạn."
+  },
+  "apiKey": {
+  "howTo": "Nhận khóa API cá nhân của bạn <0>tại đây</0>. (Nếu bạn không biết đây là gì hãy bỏ qua và xác nhận)",
+  "inputLabel": "Khóa API"
+  },
+  "customEndpoint": "Sử dụng điểm cuối API tùy chỉnh",
+  "advancedConfig": "Xem cấu hình API nâng cao <0>tại đây</0>",
+  "noApiKeyWarning": "Không cung cấp khóa API! Vui lòng kiểm tra cài đặt API của bạn."
+  }
+  
+  
+  
+  
+  
+  
+  
