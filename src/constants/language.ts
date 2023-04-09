@@ -49,7 +49,7 @@ export const selectableLanguages = [
 export const languageCodeToName = {
   // 'ar': 'العربية',
   'da': 'Dansk',
-  'en': 'English',
+  'en': 'Tiếng Việt - vh',
   'en-GB': 'English (UK)',
   'en-US': 'English (US)',
   'es': 'Español',
