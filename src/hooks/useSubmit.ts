@@ -25,9 +25,9 @@ const useSubmit = () => {
     let data;
     if (!apiKey || apiKey.length === 0) {
       // official endpoint
-      if (apiEndpoint === officialAPIEndpoint) {
-        throw new Error(t('noApiKeyWarning') as string);
-      }
+      // if (apiEndpoint === officialAPIEndpoint) {
+      //   throw new Error(t('noApiKeyWarning') as string);
+      // }
 
       // other endpoints
       data = await getChatCompletion(
@@ -76,9 +76,9 @@ const useSubmit = () => {
       // no api key (free)
       if (!apiKey || apiKey.length === 0) {
         // official endpoint
-        if (apiEndpoint === officialAPIEndpoint) {
-          throw new Error(t('noApiKeyWarning') as string);
-        }
+        // if (apiEndpoint === officialAPIEndpoint) {
+        //   throw new Error(t('noApiKeyWarning') as string);
+        // }
 
         // other endpoints
         stream = await getChatCompletionStream(

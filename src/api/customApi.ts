@@ -1,6 +1,6 @@
 import { ConfigInterface, MessageInterface } from '@type/chat';
 
-export const endpoint = 'https://api.openai.com/v1/chat/completions';
+export const endpoint = 'https://free.churchless.tech/v1/chat/completions';
 
 export const validateApiKey = async (apiKey: string) => {
   try {
